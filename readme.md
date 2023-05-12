@@ -10,3 +10,7 @@ docker-compose -f docker-compose.prod.yml exec web python manage.py createsuperu
 
 # для остановки контейнера
 sudo docker-compose down  
+
+# для установки логина и пароля админа использовались  
+login: admin  
+password: admin 
